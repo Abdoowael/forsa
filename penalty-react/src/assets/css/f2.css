@@ -1,0 +1,112 @@
+/* Login Page – Figma Neon Green Design */
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('/bg-new.jpeg') center / 100% 100% no-repeat;
+    padding: 20px;
+    direction: rtl;
+}
+
+.login-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+}
+
+.login-wrapper h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: #39FF14;
+}
+
+.login-box {
+    background: #0D2A0D;
+    border-radius: 16px;
+    padding: 30px;
+    border: 1px solid rgba(57, 255, 20, 0.15);
+}
+
+.input-group {
+    margin-bottom: 18px;
+    text-align: right;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 12px 14px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(57, 255, 20, 0.15);
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #39FF14;
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.1);
+}
+
+.input-group input::placeholder {
+    color: rgba(255,255,255,0.25);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 13px;
+    background: #0D2A0D ; color: #39FF14 ; border: 1px solid #39FF14;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: #39FF14 ; color: #000000;
+    box-shadow: 0 6px 25px rgba(57, 255, 20, 0.35);
+}
+
+.login-toggle {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.login-toggle button {
+    background: none;
+    border: none;
+    color: #39FF14;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.login-toggle button:hover {
+    text-decoration: underline;
+}

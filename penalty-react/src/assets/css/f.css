@@ -1,0 +1,87 @@
+/* Registration Form – Figma Neon Green Design */
+
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000000;
+    padding: 20px;
+    direction: rtl;
+}
+
+.form-container {
+    background: #0D2A0D;
+    border-radius: 16px;
+    padding: 35px;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid rgba(57, 255, 20, 0.15);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #39FF14;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 14px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(57, 255, 20, 0.15);
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #39FF14;
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.1);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255,255,255,0.25);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+    background: #0D2A0D ; color: #39FF14 ; border: 1px solid #39FF14;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: #39FF14 ; color: #000000;
+    box-shadow: 0 6px 25px rgba(57, 255, 20, 0.35);
+}
+
