@@ -28,6 +28,54 @@ const Home = () => {
                 </div>
             </section>
 
+            <div className="news-ticker-container" dir="ltr">
+                <div className="news-ticker">
+                    {/* المجموعة الأولى */}
+                    <span>إثارة كبيرة في دور المجموعات من كأس العالم 2026 والمنتخبات العربية تقدم أداءً بطولياً</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>حضور جماهيري قياسي في ملاعب أمريكا والمكسيك وكندا مع انطلاق الجولة الثانية</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>مفاجآت مدوية في كأس العالم: خروج مبكر لبعض المنتخبات الكبرى من دور المجموعات</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>تألق لافت للمنتخب المغربي والسعودي في مباريات الأسبوع الأول من المونديال</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>الفيفا يعلن عن نجاح تنظيمي غير مسبوق في أول بطولة تضم 48 منتخباً</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>البرازيل والأرجنتين تضمنان التأهل لدور الـ16 وسط توقعات بصدام ناري</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>أهداف خرافية تتصدر تريند السوشيال ميديا في منافسات كأس العالم</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>إصابة نجم المنتخب الفرنسي تبعده عن المونديال وتخلط أوراق المدرب</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>الفيفا يطرح الدفعة الأخيرة من تذاكر مباريات الأدوار الإقصائية</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>تقنية التسلل شبه الآلي تحسم الجدل في العديد من المباريات الحساسة</span>
+                    <span className="ticker-icon">⚽</span>
+                    
+                    {/* المجموعة الثانية (مكررة للحركة الدائرية المستمرة) */}
+                    <span>إثارة كبيرة في دور المجموعات من كأس العالم 2026 والمنتخبات العربية تقدم أداءً بطولياً</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>حضور جماهيري قياسي في ملاعب أمريكا والمكسيك وكندا مع انطلاق الجولة الثانية</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>مفاجآت مدوية في كأس العالم: خروج مبكر لبعض المنتخبات الكبرى من دور المجموعات</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>تألق لافت للمنتخب المغربي والسعودي في مباريات الأسبوع الأول من المونديال</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>الفيفا يعلن عن نجاح تنظيمي غير مسبوق في أول بطولة تضم 48 منتخباً</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>البرازيل والأرجنتين تضمنان التأهل لدور الـ16 وسط توقعات بصدام ناري</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>أهداف خرافية تتصدر تريند السوشيال ميديا في منافسات كأس العالم</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>إصابة نجم المنتخب الفرنسي تبعده عن المونديال وتخلط أوراق المدرب</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>الفيفا يطرح الدفعة الأخيرة من تذاكر مباريات الأدوار الإقصائية</span>
+                    <span className="ticker-icon">⚽</span>
+                    <span>تقنية التسلل شبه الآلي تحسم الجدل في العديد من المباريات الحساسة</span>
+                    <span className="ticker-icon">⚽</span>
+                </div>
+            </div>
+
             <section className="players">
                 <h2 className="section-title">أبرز اللاعبين</h2>
                 <div className="players-grid">
