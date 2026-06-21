@@ -65,7 +65,10 @@ iframe {
 }
 
 /* Ensure links and buttons still feel like they can be clicked */
-a, button, .player-card, .view-btn {
+a,
+button,
+.player-card,
+.view-btn {
     cursor: pointer !important;
 }
 
@@ -1041,21 +1044,8 @@ html {
     0% {
         transform: translateX(-50%);
     }
+
     100% {
         transform: translateX(0);
-    }
-}
-
-@media (max-width: 768px) {
-    .news-ticker-container {
-        padding: 8px 0;
-    }
-    .news-ticker span {
-        font-size: 0.95rem;
-        padding: 0 12px;
-    }
-    .news-ticker .ticker-icon {
-        font-size: 1.2rem;
-        padding: 0 6px;
     }
 }
